@@ -1,0 +1,9 @@
+.transition{
+    height: 400px;
+    width: 450px;
+    background-color: black;
+    transition: height;
+}
+div:hover{
+    height: 600px;
+}
