@@ -56,12 +56,27 @@
                 <input type="radio" name="Gender" value="Male" required> Male &nbsp; &nbsp; &nbsp; &nbsp;
                 <input type="radio" name="Gender" value="Female" required> Female
             </div>
+            <div class="box">
+                <label for="number" class="fl fontLabel"> Number: </label>
+                <input type="number" name="number" id="number" placeholder="Enter Mobile no." class="textBox" autofocus="no">
+            </div>
+            <div class="box"> 
+                <label for="profile" class="fl fontLabel">Profile Picture: </label>
+                <div class="fr">
+                    <input type="file" name="profile" id="profile" class="textBox">
+                </div>
+            </div>
+            <div class="box">
+            <label for="age" class="fl fontLabel">Age (18 to 64): </label>
+                <input type="range" name="age" id="age" min="18" max="64" class="textBox ">
+            </div>
             <div class="box terms">
                 <input type="checkbox" name="Terms" required> &nbsp; I accept the terms and conditions
             </div>
             <div class="box" style="background: #2d3e3f">
                 <input type="Submit" name="Submit" class="submit" value="SUBMIT">
             </div>
+            
         </form>
     </div>
 </body>
