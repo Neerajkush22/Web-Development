@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color: blue;
+}
+
+.container {
+    background-color: aqua;
+    text-align: center;
+    border: 7px solid gray;
+    width: auto;
+    height: auto;
+}
+button {
+    display: inline;
+    text-align: center;
+    margin: 10px;
+}
+
+.Alert:hover{
+    background-color: black;
+    color: blue;
+}
+.Prompt:hover{
+    background-color: black;
+    color: blue;
+}
+.Confirm:hover{
+    background-color: black;
+    color: blue;
+}
