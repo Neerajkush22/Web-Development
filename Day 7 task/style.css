@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    text-transform: capitalize;
+}
+
+main .domMethods {
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+}
+h1{
+    background-color: black;
+    text-align: center;
+    color: wheat;
+}
+
+header h1{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+main .domMethods div {
+    margin: 20px 0px;
+}
+.domMethods .container{
+    display: inline;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.domMethods .btn{
+    margin: 20px 40px;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.domMethods .btn:hover{
+    background-color: cadetblue;
+}
+
+table, td{
+    border: 2px solid gray;
+    background-color: beige;
+    width: 1000px;
+    height: auto;
+}
+
+.container{
+    background-color: aqua;
+    margin: 10px;
+    width: auto;
+    height: auto;
+}
+
+button{
+    margin: 10px;
+}
+
+button:hover{
+    color: green;
+    background-color: black;
+}
+
+h1 {
+    color: green;
+    display: flex;
+    justify-content: center;
+}
+
+#mybutton {
+    display: block;
+    margin: 0 auto;
+}
+
+#inserting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
