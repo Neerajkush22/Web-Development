@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+    margin: 10px;
+    font-family: 'Silkscreen', cursive;
+    color: blue;
+    display: block;
+    text-align: center;
+}
+
+body {
+    background: #000;
+}
+
+button {
+
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    width: 1800px;
+    height: 200px;
+    padding-top: 100px;
+}
+
+.glow {
+    display: flex;
+    font-size: 60px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    background: #000;
+    font-weight: bold;
+    animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+    }
+
+    100% {
+        text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+    }
+}
